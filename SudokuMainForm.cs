@@ -416,7 +416,7 @@ namespace Sudoku
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnSave.Location = new System.Drawing.Point(400, 29);
+            this.btnSave.Location = new System.Drawing.Point(388, 34);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(96, 34);
             this.btnSave.TabIndex = 6;
