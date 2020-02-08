@@ -1,26 +1,4 @@
-// Author: Gokuldas Chandgadkar
-// Revision: $1$
-// Date: 25/12/2005
 
-
-using System;
-using System.Collections;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Windows.Forms;
-
-namespace Sudoku
-{
-	/// <summary>
-	/// Summary description for DataGridSpinnerColumn.
-	/// This class is custom column providing spinner
-	/// functionality and is derived from DataGridTextBoxColumn
-	/// Since I have to make answer spots readonly this Column Style is not general purpose
-	/// as to make the cell read-only the code need to be handled during Edit method.
-	/// So I have exposed one property Game where we can set game instance whose servies are
-	/// then used to verity whether the cell under edit is in answer position.
-	/// </summary>
 	public class DataGridSpinnerColumn : DataGridTextBoxColumn
 
 	{
@@ -84,12 +62,7 @@ namespace Sudoku
 			set {_game=value;}
 
 		}
-		/// <summary>
-		///  Method:Scroll Handler
-		///  Purpose:Set the text value to on scroll value.
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
+
 		private void Vertical_Scroll(object sender, ScrollEventArgs e)
 		{
 			try
@@ -104,13 +77,7 @@ namespace Sudoku
 				 }
 		}
 
-		/// <summary>
-		/// 
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-
-		private void TextBox_Leave(object sender,EventArgs e)
+	ivate void TextBox_Leave(object sender,EventArgs e)
 		{
 
 			// Set the value back
@@ -144,11 +111,7 @@ namespace Sudoku
 		
 		}
 		
-		/// <summary>
-		/// Event Handler when scroll focus is lost.
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
+	
 		private void Vertical_Scroll_Leave(object sender,EventArgs e)
 		{
 
@@ -173,12 +136,9 @@ namespace Sudoku
 		  
 				
 			
-		
-		}
 
-		/// <summary>
 		/// 
-		/// </summary>
+>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 //		private void Vertical_Scroll_KeyUp(object sender,KeyEventArgs e)
