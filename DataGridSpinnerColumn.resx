@@ -1,0 +1,42 @@
+<?xml version = " 1.0 "encoding =" utf-8"?>
+<root>
+ < xsd: schema  id = "root"  xmlns = "" xmlns : xsd = "http://www.w3.org/2001/XMLSchema"  xmlns : msdata = "urn: schemas-microsoft-com:xml-msdata" >
+ < xsd:  имя элемента = "root"  msdata: IsDataSet = "true" >
+ < xsd: complexType>
+ < xsd: choice  maxOccurs = " unbounded ">
+ < xsd:  имя элемента = "данные" >
+ < xsd: complexType>
+ < xsd: последовательность>
+ < xsd:  имя элемента = "значение"  type = "xsd: string"  minOccurs = " 0 " msdata: Ordinal = "1" />
+ < xsd:  имя элемента = "комментарий"  type = "xsd: string"  minOccurs = " 0 " msdata : Ordinal = "2" />
+ < / xsd : последовательность>
+ < xsd:  имя атрибута = "name"  type = "xsd: string" />
+ < xsd:  имя атрибута = "type"  type = "xsd: string" />
+ < xsd: attribute  name = "mime type"  type = "xsd: string" />
+ < / xsd : complexType>
+ < / xsd : element>
+ < xsd:  имя элемента = "resheader" >
+ < xsd: complexType>
+ < xsd: последовательность>
+ < xsd:  имя элемента = "значение"  type = "xsd: string"  minOccurs = " 0 " msdata: Ordinal = "1" />
+ < / xsd : последовательность>
+ < xsd:  имя атрибута = "name"  type = "xsd:string"  use = "required" />
+ < / xsd : complexType>
+ < / xsd : element>
+ < / xsd: выбор>
+ < / xsd : complexType>
+ < / xsd : element>
+ < / xsd : schema>
+ < resheader  name = "ResMimeType" >
+ < значение>текст / microsoft-resx>< / value>
+ < / resheader>
+ < resheader  name = "Version" >
+ < value>1.0.0.0>< / value>
+ < / resheader>
+ < resheader  name = "читатель" >
+  система < value>.Ресурсы.ResXResourceReader, System.Windows.Формы, версия=1.0.3102.0, язык и региональные параметры = нейтральный, PublicKeyToken=b77a5c561934e089< / value>
+ < / resheader>
+ < resheader  name = "писатель" >
+  система < value>.Ресурсы.ResXResourceWriter, System.Windows.Формы, версия=1.0.3102.0, язык и региональные параметры = нейтральный, PublicKeyToken=b77a5c561934e089< / value>
+ < / resheader>
+< / roo
