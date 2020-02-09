@@ -1,0 +1,68 @@
+?xml version = " 1.0 "encoding =" utf-8"?>
+<root>
+  <!-- 
+ Тип MIME используется для сериализованных объектов и сообщает следующее 
+ : а затем кодируется с помощью кодировки base64.
+    -->
+ < xsd: schema  id = "root"  xmlns = "" xmlns : xsd = "http://www.w3.org/2001/XMLSchema"  xmlns : msdata = "urn: schemas-microsoft-com:xml-msdata" >
+ < xsd: import  namespace = "http://www.w3.org/XML/1998/namespace" / >
+ < xsd:  имя элемента = "root"  msdata: IsDataSet = "true" >
+ < xsd: complexType>
+ < xsd: choice  maxOccurs = " unbounded ">
+ < xsd:  имя элемента = "метаданные" >
+ < xsd: complexType>
+ < xsd: последовательность>
+ < xsd:  имя элемента = "value"  type = "xsd:string"  minOccurs = "0" />
+ < / xsd : последовательность>
+ < xsd:  имя атрибута = "name"  use = "required"  type = "xsd: string" />
+ < xsd:  имя атрибута = "type"  type = "xsd: string" />
+ < xsd: attribute  name = "mime type"  type = "xsd: string" />
+ < xsd: атрибут  ref = "xml: space" />
+ < / xsd : complexType>
+ < / xsd : element>
+ < xsd:  имя элемента = "сборка" >
+ < xsd: complexType>
+ < xsd: attribute  name = "alias"  type = "xsd: string" />
+ < xsd:  имя атрибута = "name"  type = "xsd: string" />
+ < / xsd : complexType>
+ < / xsd : element>
+ < xsd:  имя элемента = "данные" >
+ < xsd: complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+ < xsd: имя элемента = "комментарий" type = "xsd: string" minOccurs = " 0 " msdata : Ordinal = "2" />
+ < / xsd : последовательность>
+ < xsd: имя атрибута = "name" type = "xsd: string" use= "required" msdata: Ordinal = "1" / >
+ < xsd: имя атрибута = "type" type = "xsd:string" msdata: Ordinal = "3" />
+ < xsd: имя атрибута = "тип mime" type = "xsd:string" msdata: Ordinal = "4" />
+ < xsd: атрибут ref = "xml: space" />
+ < / xsd : complexType>
+ < / xsd : element>
+ < xsd: имя элемента = "resheader" >
+ < xsd: complexType>
+ < xsd: последовательность>
+ < xsd: имя элемента = "значение" type = "xsd: string" minOccurs = " 0 " msdata: Ordinal = "1" />
+ < / xsd : последовательность>
+ < xsd: имя атрибута = "name" type = "xsd:string" use = "required" />
+ < / xsd : complexType>
+ < / xsd : element>
+ < / xsd: выбор>
+ < / xsd : complexType>
+ < / xsd : element>
+ < / xsd : schema>
+ < resheader name = "resmimetype" >
+ < значение>текст / microsoft-resx>< / value>
+ < / resheader>
+ < resheader name = "version" >
+ < value > 2.0 < value >> < value > > < / value>
+ < / resheader>
+ < resheader name = "читатель" >
+ система < value>.Ресурсы.ResXResourceReader, System.Windows.Формы, версия=4.0.0.0, язык и региональные параметры = нейтральный, PublicKeyToken=b77a5c561934e089< / value>
+ < / resheader>
+ < resheader name = "писатель" >
+ система < value>.Ресурсы.ResXResourceWriter, System.Windows.Формы, версия=4.0.0.0, язык и региональные параметры = нейтральный, PublicKeyToken=b77a5c561934e089< / value>
+ < / resheader>
+ <metadata name="timer1.Система TrayLocation " type =".Рисование.балльная система.Чертеж, версия=4.0.0.0, язык и региональные параметры=нейтральный, PublicKeyToken=b03f5f7f11d50a3a" >
+ < value > 17, 17< value >>< value > > < / value>
+ < / метаданные>
+< / корень>
