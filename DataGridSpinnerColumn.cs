@@ -12,9 +12,7 @@
 
 
 		
-		/// <summary>
-		/// Constructor
-		/// </summary>
+		
 		public DataGridSpinnerColumn()
 		{
 
@@ -135,43 +133,7 @@
 			
 		  
 				
-			
 
-		/// 
->
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-//		private void Vertical_Scroll_KeyUp(object sender,KeyEventArgs e)
-//		{
-//			if(e.KeyCode == Keys.Up)
-//			{
-//				if(vsBar.Value > vsBar.Minimum)
-//				{
-//					vsBar.Value--;
-//					this.TextBox.Text = vsBar.Value.ToString();
-//				}
-//			
-//			}
-//		
-//			if(e.KeyCode == Keys.Down)
-//			{
-//				if(vsBar.Value < vsBar.Maximum)
-//				{
-//					vsBar.Value++;
-//					this.TextBox.Text = vsBar.Value.ToString();
-//				
-//				}
-//			}
-//		}
-//		/// <summary>
-		/// 
-		/// </summary>
-		/// <param name="source"></param>
-		/// <param name="rowNum"></param>
-		/// <param name="bounds"></param>
-		/// <param name="readOnly"></param>
-		/// <param name="instantText"></param>
-		/// <param name="cellIsVisible"></param>
 		
 		// On edit, add scroll event handler, and display combobox
 		protected override void Edit(System.Windows.Forms.CurrencyManager 
